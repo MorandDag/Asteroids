@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shooter: {fileID: 0}
   speed: 10
-  lifeTime: 1
+  lifeTime: 0.9
   distance: 25
 --- !u!58 &3845213736394674446
 CircleCollider2D:

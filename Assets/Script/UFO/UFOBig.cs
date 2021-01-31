@@ -62,4 +62,13 @@ public class UFOBig : MonoBehaviour
             Destroy(col.gameObject);
         }
     }
+
+    void OnDisable()
+    {
+        foreach (Transform child in spaceForBullet)
+        {
+            if (child.gameObject.GetComponent<Bullet>().shooter.tag == "UFOBig")
+                Destroy(child.gameObject);
+        }
+    }
 }

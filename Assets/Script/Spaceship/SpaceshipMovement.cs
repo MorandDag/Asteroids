@@ -62,5 +62,11 @@ public class SpaceshipMovement : MonoBehaviour
     {
         HP -= 1;
         death = true;
+
+        foreach (Transform child in spaceForBullet)
+        {
+            if(child.gameObject.GetComponent<Bullet>().shooter.tag == "Player")
+                Destroy(child.gameObject);
+        }
     }
 }
