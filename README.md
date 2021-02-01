@@ -5,8 +5,8 @@ _Version Unity: 2019.4.18f1._
 ## Install
 
 1. Download this repository, either through zip file or clone it via Git, to a directory of your choice on your PC.
-2. Launch Unity Hub. In "Projects" click "Add" and select the directory where the project files were placed.
-3. When the project loads and opens, you need to select the "MainScene" scene in the "Scenes" folder.
+2. Launch Unity Hub. In `Projects` click `Add` and select the directory where the project files were placed.
+3. When the project loads and opens, you need to select the `MainScene` scene in the `Scenes` folder.
 
 ## Control
 
