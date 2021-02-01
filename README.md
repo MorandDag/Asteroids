@@ -21,9 +21,9 @@ _Version Unity: 2019.4.18f1._
 The object of the game if to destroy the asteroids and saucers.shooting a large asteroid breaks that asteroid into 2 medium sized asteroids. shooting one of those pices breaks in into 2 small asteroids. The player has the ability to send the ship into hyperjump, but with a certain chances are you can explode, appearing on the site of an asteroid. Saucers appear randomly on the screen.
 
 #### Scoring:
-- Small asteroids - 100,
-- Medium - 50,
-- Large - 20,
+- Small asteroids - 100
+- Medium - 50
+- Large - 20
 - Large saucers - 200
 
-Every 10000 points you will get an HP
+Every 10000 points you will get an HP.
