@@ -1,6 +1,7 @@
 # Asteroids
 A game written in Unity3D that copies the game "Asteroids 1979".
-Version Unity: 2019.4.18f1.
+
+_Version Unity: 2019.4.18f1._
 ## Install
 
 1. Download this repository, either through zip file or clone it via Git, to a directory of your choice on your PC.
