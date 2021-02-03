@@ -41,6 +41,8 @@ public class SpaceshipMovement : MonoBehaviour
 
                 transform.position = new Vector3(spawnX, spawnY,0);
 
+                FindObjectOfType<AudioManager>().Play("HyperJump");
+
                 timeShot = startTimeShot;
             }
 
@@ -60,8 +62,12 @@ public class SpaceshipMovement : MonoBehaviour
 
     void OnDisable()
     {
+        
+
         HP -= 1;
         death = true;
+
+        FindObjectOfType<AudioManager>().Play("PayerDeath");
 
         foreach (Transform child in spaceForBullet)
         {

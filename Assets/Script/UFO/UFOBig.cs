@@ -65,6 +65,8 @@ public class UFOBig : MonoBehaviour
 
     void OnDisable()
     {
+        FindObjectOfType<AudioManager>().Play("UFODeath");
+
         foreach (Transform child in spaceForBullet)
         {
             if (child.gameObject.GetComponent<Bullet>().shooter.tag == "UFOBig")

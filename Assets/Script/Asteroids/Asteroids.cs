@@ -37,8 +37,9 @@ public class Asteroids : MonoBehaviour
 
     void OnDisable()
     {
+        FindObjectOfType<AudioManager>().Play("AsteroidDestroy");
         //Create 2 child asteroids
-        if((sizeAsteroid == 3) || (sizeAsteroid == 2))
+        if ((sizeAsteroid == 3) || (sizeAsteroid == 2))
         {
             var numAsteroid = Random.Range(0,3);
             
