@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class StartRound : MonoBehaviour
 {
+    public GameObject panelQuit;
+
     public GameObject[] asteroids;
     public Transform startPointAsteroids, spaceForBullets, spaceForUFO;
     public int countAsteroids;
@@ -21,6 +23,13 @@ public class StartRound : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            panelQuit.SetActive(true);
+            panelQuit.GetComponent<PanelQuit>().PauseGame(true);
+        }
+            
+
         if (timeCreatUFO <= 0)
         {
             CreateUFO();
