@@ -314,6 +314,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 833705755}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &160093837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1027,9 +1038,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: PayerDeath
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
+    clip: {fileID: 8300000, guid: 1eab3eb6857743c499730bdf336ad8c3, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 3eddcc862b3df90499a0a43c3e376fc7, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: UFODeath
+    clip: {fileID: 8300000, guid: b6ad2f5ad49161546ac581b8745832ac, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AsteroidDestroy
+    clip: {fileID: 8300000, guid: be46915d750b9e84ba1659d91fcb6f44, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: HyperJump
+    clip: {fileID: 8300000, guid: 0da2d0c30b764e044b896a94555bc4d4, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: cbc569a6d6381b74c9bc1eef24374455, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!4 &833705756
 Transform:
   m_ObjectHideFlags: 0
@@ -1529,6 +1572,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 833705755}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1266134143
