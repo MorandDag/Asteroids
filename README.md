@@ -34,4 +34,4 @@ The object of the game if to destroy the asteroids and saucers.shooting a large 
 Every 10000 points you will get an HP.
 
 ## Link to the build version
-Google drive: https://drive.google.com/drive/u/0/folders/1wMo_RUAMkPFhCEumypbAgObUcd5d5sqz
+Google drive: https://drive.google.com/drive/folders/1wMo_RUAMkPFhCEumypbAgObUcd5d5sqz?usp=sharing
