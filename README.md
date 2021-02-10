@@ -5,6 +5,8 @@ _Version Unity: 2019.4.18f1._
 
 ![Creen](https://user-images.githubusercontent.com/55539313/107508307-dad97580-6bb1-11eb-8741-921f4bb07d10.png)
 
+----
+
 ## Install
 
 1. Download this repository, either through zip file or clone it via Git, to a directory of your choice on your PC.
