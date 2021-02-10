@@ -3,7 +3,7 @@ A game written in Unity3D that copies the game "Asteroids 1979".
 
 _Version Unity: 2019.4.18f1._
 
-![alt text](https://photos.google.com/photo/AF1QipN00pARyLlBiAm1m8f7U2UHfz9BXykdhkWk_k5F)
+![Creen](https://user-images.githubusercontent.com/55539313/107508307-dad97580-6bb1-11eb-8741-921f4bb07d10.png)
 
 ## Install
 
